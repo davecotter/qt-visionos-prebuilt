@@ -1,5 +1,7 @@
 # qt-visionos-prebuilt
 
+**Repository:** https://github.com/davecotter/qt-visionos-prebuilt
+
 Community **prebuilt Qt 6.11.x for visionOS** (device + simulator), including **Qt Quick 3D / Qt Quick 3D Xr**.
 
 Qt’s official installer does **not** ship visionOS binaries. This repo is the **source of truth** for:
