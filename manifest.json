@@ -1,0 +1,25 @@
+{
+  "project": "qt-visionos-prebuilt",
+  "qt_version": "6.11.1",
+  "modules": [
+    "qtbase",
+    "qtdeclarative",
+    "qtshadertools",
+    "qtquicktimeline",
+    "qtquick3d"
+  ],
+  "platforms": {
+    "visionos_device": {
+      "sdk": "xros",
+      "configure_platform": "macx-visionos-clang",
+      "install_subdir": "install/6.11.1/visionos-arm64"
+    },
+    "visionos_simulator": {
+      "sdk": "xrsimulator",
+      "configure_platform": "macx-visionos-clang",
+      "install_subdir": "install/6.11.1/visionos-simulator-arm64"
+    }
+  },
+  "host_qt_path_default": "/Users/davec/Developer/Qt/6.11.1/macos",
+  "releases": []
+}
